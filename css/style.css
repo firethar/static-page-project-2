@@ -328,7 +328,12 @@ p.show-more a:hover {
   margin: 0 auto; padding:0;
   height: 800px;
   background-color: #f2be5c;
-  overflow: hidden;
+  background: url(../img/bg-prices.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; 
   color: #ffffff;
   text-align: center;
 }
